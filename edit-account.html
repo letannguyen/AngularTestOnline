@@ -1,0 +1,53 @@
+<div class="container" style="height: 630px; padding: 0px;">
+
+
+
+    <div class="row" style=" height: 630px; margin: 0px;">
+
+        <article class="col-sm-9" style="height: auto;">
+            <div class="introduce" style="width: 1140px;">
+                <h1>SỬA THÔNG TIN TÀI KHOẢN</h1>
+            </div>
+
+            <div class="row">
+                <form class="form-register" name="frmRegister">
+                    <div class="form-group register-font">
+                        <label style="font-weight: bold;"><span class="glyphicon glyphicon-user"></span> Họ và
+                            tên</label>
+                        <input ng-model="name" required name="txtFullname" minlength="5" maxlength="40" style="width: 350px; height: 33px;" type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group register-font">
+                        <label style="font-weight: bold;"><span class="glyphicon glyphicon-phone"></span> Điện
+                            thoại</label>
+                        <input ng-model="phone" required name="txtPhone" minlength="10" maxlength="10" style="width: 350px; height: 33px;" type="text" class="form-control" placeholder="Phone">
+                    </div>
+                    <div class="form-group register-font" >
+                        <label style="font-weight: bold;"><span class="glyphicon glyphicon-lock"></span> Ngày
+                            sinh</label>
+                        <input ng-model="birthday" required name="txtBirthday" style="width: 350px; height: 33px;" type="date" class="form-control"
+                            placeholder="Birthday">
+                    </div>
+                    <div class="form-group register-font">
+                        <label style="font-weight: bold;"><span class="glyphicon glyphicon-heart"></span> Giới
+                            tính</label>
+                        <select style="font-size: 15px; width: 350px;" ng-model="gender" required name="txtGender" class="form-control">
+                            <option>Nam</option>
+                            <option>Nữ</option>W
+                        </select>
+                    </div>
+                    <div class="form-group register-font">
+                        <label style="font-weight: bold;"><span class="glyphicon glyphicon-globe"></span>
+                            Tỉnh/TP</label>
+                        <input ng-model="city" required name="txtCity" style="width: 350px; height: 33px;" type="text" class="form-control" placeholder="City">
+                    </div>
+
+                    <button style="width: 350px; font-size: 14px; margin-top: 10px;" type="submit"
+                        class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> Thay đổi</button>
+                    <button style="width: 350px; font-size: 14px; margin-top: 10px;" type="submit"
+                        class="btn btn-secondary"><span class="glyphicon glyphicon-repeat"></span> Điền lại thông
+                        tin</button>
+                </form>
+            </div>
+        </article>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+<div class="container" style="height: 367px; padding: 0px;">
+    <div style=" height: 350px;">
+
+        <article class="col-sm-9">
+            <div class="introduce" style="width: 1140px;">
+                <h1>THÔNG TIN TÀI KHOẢN</h1>
+            </div>
+
+            <div class="thongtinchung">
+                <a><b>Thông tin chung</b> </a>
+                <a href="#!edit-account" style="margin-left: 260px; font-size: 15px; text-decoration: none;"><span
+                        class="glyphicon glyphicon-edit"></span> Cập nhật</a>
+                <hr style="height: 1px; background-color: gray; margin-top: 5px;" />
+            </div>
+
+            <div class="row changeacc" ng-controller="studentCtrl">
+                <div ng-repeat="sub in list_subject">
+                    <ul>
+                        <li><b><span class="glyphicon glyphicon-user"></span> Họ tên:</b> {{sub.fullname}}</li>
+                        <li style="margin-top: 10px;"><b><span class="glyphicon glyphicon-heart"></span> Giới tính: </b>{{sub.gender}}</li>
+                        <li style="margin-top: 10px;"><b><span class="glyphicon glyphicon-calendar"></span> Ngày sinh:</b> {{sub.birthday}}</li>
+                    </ul>
+                </div>
+                <div ng-repeat="sub in list_subject">
+                    <ul>
+                        <li style="margin-left: 40px;"><b><span class="glyphicon glyphicon-envelope"></span>
+                                Email:</b> {{sub.email}}</li>
+                        <li style="margin-top: 10px; margin-left: 40px;"><b><span
+                                    class="glyphicon glyphicon-phone"></span> Điện thoại:</b> 0935542813</li>
+                        <li style="margin-top: 10px; margin-left: 40px;"><b><span
+                                    class="glyphicon glyphicon-globe"></span> Tỉnh Thành:</b> Đà Nẵng</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>

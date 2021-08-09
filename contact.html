@@ -1,0 +1,51 @@
+<div class="container" style="height: 1130px; padding: 0px;">
+
+  <div class="row" style=" height: auto; margin: 0px;">
+
+    <article class="col-sm-9" style="height: auto">
+      <div class="introduce" style="background-color: #e3f2fd;">
+        <h1 style="color: black;">LIÊN HỆ</h1>
+      </div>
+      <div class="contact">
+        <ul>
+          <h2 style="font-weight: bold;">Hãy Liên Hệ Với Chúng Tôi</h2>
+          <li><b><span class="glyphicon glyphicon-home"></span> Địa chỉ:</b> 137 Nguyễn Thị Thập, Thanh Khê Tây, Liên
+            Chiểu, TP.Đà Nẵng</li>
+          <li><b><span class="glyphicon glyphicon-earphone"></span> Điện thoại:</b> 0905055555</li>
+          <li><b><span class="glyphicon glyphicon-envelope"></span> Email:</b> Nguyenltpd03408fpt.edu.vn</li>
+        </ul>
+      </div>
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6219.066153209797!2d108.16749307379989!3d16.075014697016876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314218e6e07b1c3f%3A0x459e4bf5a2af323e!2zVHLGsOG7nW5nIGNhbyDEkeG6s25nIHRo4buxYyBow6BuaCBGUFQgUE9MWVRFQ0hOSUMgxJDDoCBO4bq1bmc!5e0!3m2!1svi!2s!4v1584981285560!5m2!1svi!2s"
+          width="855" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0">
+        </iframe>
+      </div>
+
+    </article>
+
+    <!--Danh mục môn học-->
+    <aside class="col-sm-3">
+      <di class="card poly-cart">
+        <div class="card-header" style="cursor: pointer; background-color: #e3f2fd;">
+          <span style="color: black;" class="glyphicon glyphicon-th-list"></span>
+          <a style="font-weight: 700; color: black;">DANH MỤC MÔN HỌC</a>
+        </div>
+        <div class="danhmuc">
+          <ul ng-repeat="item in list_subject" class="list-group list-group-flush card-collapse"
+            style="margin-top: 0px;">
+            <li class="list-group-item" style="cursor: pointer;">
+              <a style="color: #333333; text-decoration: none;" href="#!quiz/{{item.Id}}/{{item.Name}}">
+                <img src="images/logos/{{item.Logo}}" href="" alt="" width="30" height="30">
+                {{item.Name}}
+              </a>
+            </li>
+          </ul>
+        </div>
+  </div>
+  </aside>
+
+</div>
+
+</div>

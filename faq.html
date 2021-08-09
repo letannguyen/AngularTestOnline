@@ -1,0 +1,96 @@
+<div class="container" style="height: 1130px; padding: 0px;">
+
+    <div class="row" style=" height: auto; margin: 0px;">
+
+        <article class="col-sm-9" style="height: auto">
+            <div class="introduce" style="background-color: #e3f2fd;">
+                <h1 style="color: black;">HỎI ĐÁP</h1>
+            </div>
+
+            <div style="cursor: pointer;">
+                <div style="margin-top: 15px;">
+                    <a data-toggle="collapse" data-target="#target1" style="font-weight: bold;">
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                        Website chính thức đi vào hoạt động vào thời gian nào ?
+                    </a>
+                    <div id="target1" class="collapse">
+                        Website đi vào hoạt động vào ngày 24/03/2020.
+                    </div>
+                </div>
+                <hr />
+                <div style="margin-top: 15px;">
+                    <a data-toggle="collapse" data-target="#target2" style="font-weight: bold;">
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                        Làm sao để thi trắc nghiệm trực tuyến ?
+                    </a>
+                    <div id="target2" class="collapse">
+                        1. Hãy đăng ký một tài khoản.<br>
+                        2. Đăng nhập.<br>
+                        3. Bắt đầu thi.
+                    </div>
+                </div>
+                <hr />
+                <div style="margin-top: 15px;">
+                    <a data-toggle="collapse" data-target="#target3" style="font-weight: bold;">
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                        Làm sao để đăng ký tài khoản?
+                    </a>
+                    <div id="target3" class="collapse">
+                        Hãy nhấn vào <a href="register.html">đây</a>.
+                    </div>
+                </div>
+                <hr />
+                <div style="margin-top: 15px;">
+                    <a data-toggle="collapse" data-target="#target4" style="font-weight: bold;">
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                        Làm sao để đăng nhập ?
+                    </a>
+                    <div id="target4" class="collapse">
+                        Hãy nhấn vào <a href="login.html">đây</a>.
+                    </div>
+                </div>
+                <hr />
+                <div style="margin-top: 15px;">
+                    <a data-toggle="collapse" data-target="#target5" style="font-weight: bold;">
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                        Website có bao nhiêu môn thi trắc nghiệm ?
+                    </a>
+                    <div id="target5" class="collapse">
+                        Website chúng tôi có 12 môn thi trắc nghiệm.
+                    </div>
+                </div>
+                <hr/>
+                <div style="margin-top: 15px;">
+                    <a data-toggle="collapse" data-target="#target6" style="font-weight: bold;">
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                        Ngân hàng đề thi của mỗi môn có bao nhiêu câu ?
+                    </a>
+                    <div id="target6" class="collapse">
+                        Ngân hàng đề thi của mỗi môn có 77 câu trắc nghiệm.
+                    </div>
+                </div>
+            </div>
+
+        </article>
+
+        <!--Danh mục môn học-->
+        <aside class="col-sm-3">
+            <di class="card poly-cart">
+                <div class="card-header" style="cursor: pointer; background-color: #e3f2fd;">
+                <span style="color: black;" class="glyphicon glyphicon-th-list"></span>
+                <a style="font-weight: 700; color: black;">DANH MỤC MÔN HỌC</a> 
+                </div>
+                <div class="danhmuc" >
+                    <ul ng-repeat="item in list_subject" class="list-group list-group-flush card-collapse" style="margin-top: 0px;" >
+                        <li class="list-group-item" style="cursor: pointer;">
+                        <a style="color: #333333; text-decoration: none;" href="#!quiz/{{item.Id}}/{{item.Name}}"> 
+                        <img src="images/logos/{{item.Logo}}" href="" alt="" width="30" height="30"> 
+                        {{item.Name}}
+                        </a> 
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </div>
+</div>

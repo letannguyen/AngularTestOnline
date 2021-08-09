@@ -1,0 +1,215 @@
+body{
+    font-size: 15px;
+}
+
+.slide{
+    margin-left: -15px;
+    margin-top: 20px;
+    width: 855px;
+}
+
+.poly-cart{
+    margin: 10px;
+    margin-top: 20px;
+    margin-right: -15px;
+}
+
+.article-img img{
+    margin-left: -15px;
+    width: 1140px;
+    height: 600px;
+}
+
+.poly-cart ul{
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.dropdown-menu{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 129px;
+    font-size: 13px;
+}
+
+.introduce{
+    background-color: #343a40;
+    height: 60px;
+    margin-left: -15px;
+    width: 855px;
+}
+
+.introduce h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.introduce-word{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.contact{
+    margin-left: -15px;
+    margin-top: 15px;
+}
+
+.contact ul{
+    margin-left: -40px;
+}
+
+.contact ul li{
+    list-style: none;
+}
+
+.contact-map{
+    margin-top: 15px;
+    margin-left: -15px;
+    margin-bottom: 15px;
+}
+
+.feedback{
+    margin-left: -15px;
+    margin-top: 15px;
+}
+
+.feedback-form{
+    margin-left: -15px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.feedback-input input{
+    width: 400px;
+}
+
+.form-login{
+    margin-left: 410px;
+    margin-top: 45px;
+}
+
+.form-register{
+    margin-left: 410px;
+    margin-top: 45px;
+}
+
+.register-font input{
+    font-size: 15px;
+}
+
+.quenmatkhau{
+    margin-left: -25px;
+    margin-top: 10px;
+}
+
+.quenmatkhau ul li{
+    list-style: none;
+    margin-left: -15px;
+}
+
+.quenmatkhau ul li a{
+    color: #343a40;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.quenmatkhau ul li a:hover{
+    color: #337ab7;
+}
+
+.changeacc{
+    margin-left: 270px;
+    margin-top: 40px;
+}
+
+.changeacc ul li{
+    list-style: none;
+}
+
+.thongtinchung{
+    margin-left: 290px;
+    margin-top: 40px;
+    margin-bottom: -15px;
+    font-size: 20px;
+}
+
+.cart-subjects{
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: -5px;
+}
+
+.box{
+    width: 380px;
+    margin-top: 30px;
+}
+
+.box ul li{
+    height: 50x;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.box img{
+    width: 200px;
+    height: 250px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+.box-title{
+    height: 250px;
+}
+
+.quiz{
+    margin-top: 15px;
+    width: 1140px;
+    height: 360px;
+}
+
+
+.danhmuc ul li:hover{
+    background-color: #dedede;
+}
+
+footer{
+    height: 40px;
+    color: white;
+    background-color: #343a40;
+    height: 103px;
+}
+
+.content-footer{
+    padding: 20px;
+}
+
+.footer-terms a:hover{
+    color: yellow;
+}
+
+input.ng-valid{
+    background-image: url('../images/Accept-icon.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+input.ng-invalid{
+    background-image: url('../images/Actions-process-stop-icon.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+select.ng-valid{
+    background-image: url('../images/Accept-icon.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+select.ng-invalid{
+    background-image: url('../images/Actions-process-stop-icon.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
